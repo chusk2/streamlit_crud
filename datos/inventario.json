@@ -1,0 +1,956 @@
+[
+  {
+    "nombre": "iPhone 15 Pro",
+    "marca": "Apple",
+    "categoria": "Smartphones",
+    "precio": 1199.0,
+    "stock": 25,
+    "especificaciones": "6.1 pulgadas, 256GB, Titanio Natural",
+    "fecha_ingreso": "2024-01-15"
+  },
+  {
+    "nombre": "iPhone 15",
+    "marca": "Apple",
+    "categoria": "Smartphones",
+    "precio": 899.0,
+    "stock": 32,
+    "especificaciones": "6.1 pulgadas, 128GB, Azul",
+    "fecha_ingreso": "2024-01-18"
+  },
+  {
+    "nombre": "iPhone 15 Plus",
+    "marca": "Apple",
+    "categoria": "Smartphones",
+    "precio": 899.99,
+    "stock": 17,
+    "especificaciones": "6.7 pulgadas, 128GB, Verde",
+    "fecha_ingreso": "2024-03-01"
+  },
+  {
+    "nombre": "Samsung Galaxy S24 Ultra",
+    "marca": "Samsung",
+    "categoria": "Smartphones",
+    "precio": 1299.0,
+    "stock": 18,
+    "especificaciones": "6.8 pulgadas, 512GB, S Pen incluido",
+    "fecha_ingreso": "2024-02-05"
+  },
+  {
+    "nombre": "Samsung Galaxy S24",
+    "marca": "Samsung",
+    "categoria": "Smartphones",
+    "precio": 899.99,
+    "stock": 30,
+    "especificaciones": "6.2 pulgadas, 256GB, Exynos 2400",
+    "fecha_ingreso": "2024-03-02"
+  },
+  {
+    "nombre": "Samsung Galaxy Z Flip5",
+    "marca": "Samsung",
+    "categoria": "Smartphones",
+    "precio": 1099.99,
+    "stock": 13,
+    "especificaciones": "6.7 pulgadas plegable, 256GB",
+    "fecha_ingreso": "2024-03-05"
+  },
+  {
+    "nombre": "Google Pixel 8",
+    "marca": "Google",
+    "categoria": "Smartphones",
+    "precio": 699.0,
+    "stock": 22,
+    "especificaciones": "6.2 pulgadas, 128GB, Tensor G3",
+    "fecha_ingreso": "2024-03-03"
+  },
+  {
+    "nombre": "Google Pixel 8 Pro",
+    "marca": "Google",
+    "categoria": "Smartphones",
+    "precio": 999.0,
+    "stock": 14,
+    "especificaciones": "6.7 pulgadas, 256GB, Tensor G3",
+    "fecha_ingreso": "2024-02-10"
+  },
+  {
+    "nombre": "OnePlus 12",
+    "marca": "OnePlus",
+    "categoria": "Smartphones",
+    "precio": 849.0,
+    "stock": 19,
+    "especificaciones": "6.82 pulgadas, 256GB, Snapdragon 8 Gen 3",
+    "fecha_ingreso": "2024-02-12"
+  },
+  {
+    "nombre": "OnePlus 12R",
+    "marca": "OnePlus",
+    "categoria": "Smartphones",
+    "precio": 599.99,
+    "stock": 26,
+    "especificaciones": "6.78 pulgadas, 256GB, Snapdragon 8 Gen 2",
+    "fecha_ingreso": "2024-03-04"
+  },
+  {
+    "nombre": "Xiaomi 14 Pro",
+    "marca": "Xiaomi",
+    "categoria": "Smartphones",
+    "precio": 899.0,
+    "stock": 21,
+    "especificaciones": "6.73 pulgadas, 256GB, Leica",
+    "fecha_ingreso": "2024-02-15"
+  },
+  {
+    "nombre": "MacBook Pro 14 M3",
+    "marca": "Apple",
+    "categoria": "Laptops",
+    "precio": 1999.0,
+    "stock": 12,
+    "especificaciones": "14 pulgadas, M3, 512GB SSD, 16GB RAM",
+    "fecha_ingreso": "2024-01-20"
+  },
+  {
+    "nombre": "MacBook Air 13 M3",
+    "marca": "Apple",
+    "categoria": "Laptops",
+    "precio": 1299.0,
+    "stock": 18,
+    "especificaciones": "13 pulgadas, M3, 256GB SSD, 8GB RAM",
+    "fecha_ingreso": "2024-01-22"
+  },
+  {
+    "nombre": "MacBook Air 15 M3",
+    "marca": "Apple",
+    "categoria": "Laptops",
+    "precio": 1499.0,
+    "stock": 14,
+    "especificaciones": "15 pulgadas, M3, 512GB SSD, 16GB RAM",
+    "fecha_ingreso": "2024-03-06"
+  },
+  {
+    "nombre": "Dell XPS 15",
+    "marca": "Dell",
+    "categoria": "Laptops",
+    "precio": 1799.0,
+    "stock": 9,
+    "especificaciones": "15.6 pulgadas, Intel i7, 1TB SSD, 32GB RAM",
+    "fecha_ingreso": "2024-02-08"
+  },
+  {
+    "nombre": "Dell XPS 13",
+    "marca": "Dell",
+    "categoria": "Laptops",
+    "precio": 1299.0,
+    "stock": 11,
+    "especificaciones": "13.4 pulgadas, Intel i7, 512GB SSD, 16GB RAM",
+    "fecha_ingreso": "2024-02-09"
+  },
+  {
+    "nombre": "Lenovo ThinkPad X1 Carbon",
+    "marca": "Lenovo",
+    "categoria": "Laptops",
+    "precio": 1899.0,
+    "stock": 7,
+    "especificaciones": "14 pulgadas, Intel i7, 1TB SSD, 16GB RAM",
+    "fecha_ingreso": "2024-02-11"
+  },
+  {
+    "nombre": "Lenovo Legion Pro 7i",
+    "marca": "Lenovo",
+    "categoria": "Laptops",
+    "precio": 2299.99,
+    "stock": 6,
+    "especificaciones": "16 pulgadas, Intel i9, RTX 4080, 1TB SSD",
+    "fecha_ingreso": "2024-03-09"
+  },
+  {
+    "nombre": "ASUS ROG Zephyrus G14",
+    "marca": "ASUS",
+    "categoria": "Laptops",
+    "precio": 1899.99,
+    "stock": 7,
+    "especificaciones": "14 pulgadas, Ryzen 9, RTX 4060, 1TB SSD",
+    "fecha_ingreso": "2024-03-07"
+  },
+  {
+    "nombre": "Microsoft Surface Laptop 6",
+    "marca": "Microsoft",
+    "categoria": "Laptops",
+    "precio": 1599.0,
+    "stock": 11,
+    "especificaciones": "13.5 pulgadas, Core Ultra 7, 512GB SSD",
+    "fecha_ingreso": "2024-03-08"
+  },
+  {
+    "nombre": "HP Spectre x360",
+    "marca": "HP",
+    "categoria": "Laptops",
+    "precio": 1499.0,
+    "stock": 13,
+    "especificaciones": "14 pulgadas, Intel i7, 1TB SSD, 16GB RAM",
+    "fecha_ingreso": "2024-02-14"
+  },
+  {
+    "nombre": "iPad Pro 12.9 M2",
+    "marca": "Apple",
+    "categoria": "Tablets",
+    "precio": 1099.0,
+    "stock": 15,
+    "especificaciones": "12.9 pulgadas, 256GB, Wi-Fi",
+    "fecha_ingreso": "2024-01-25"
+  },
+  {
+    "nombre": "iPad Air 11",
+    "marca": "Apple",
+    "categoria": "Tablets",
+    "precio": 599.0,
+    "stock": 23,
+    "especificaciones": "11 pulgadas, 128GB, Wi-Fi",
+    "fecha_ingreso": "2024-01-28"
+  },
+  {
+    "nombre": "Samsung Galaxy Tab S9",
+    "marca": "Samsung",
+    "categoria": "Tablets",
+    "precio": 899.99,
+    "stock": 13,
+    "especificaciones": "11 pulgadas, 256GB, S Pen incluido",
+    "fecha_ingreso": "2024-03-11"
+  },
+  {
+    "nombre": "Samsung Galaxy Tab S9 Ultra",
+    "marca": "Samsung",
+    "categoria": "Tablets",
+    "precio": 1199.0,
+    "stock": 8,
+    "especificaciones": "14.6 pulgadas, 256GB, S Pen incluido",
+    "fecha_ingreso": "2024-02-17"
+  },
+  {
+    "nombre": "Microsoft Surface Pro 9",
+    "marca": "Microsoft",
+    "categoria": "Tablets",
+    "precio": 1099.0,
+    "stock": 8,
+    "especificaciones": "13 pulgadas, Intel i5, 256GB SSD",
+    "fecha_ingreso": "2024-03-10"
+  },
+  {
+    "nombre": "Lenovo Tab P12 Pro",
+    "marca": "Lenovo",
+    "categoria": "Tablets",
+    "precio": 699.0,
+    "stock": 12,
+    "especificaciones": "12.6 pulgadas, 256GB, AMOLED",
+    "fecha_ingreso": "2024-02-19"
+  },
+  {
+    "nombre": "Sony WH-1000XM5",
+    "marca": "Sony",
+    "categoria": "Audio",
+    "precio": 399.99,
+    "stock": 35,
+    "especificaciones": "Auriculares inalámbricos, ANC, 30h batería",
+    "fecha_ingreso": "2024-01-10"
+  },
+  {
+    "nombre": "Bose QuietComfort Ultra",
+    "marca": "Bose",
+    "categoria": "Audio",
+    "precio": 429.0,
+    "stock": 28,
+    "especificaciones": "Auriculares ANC premium, audio espacial",
+    "fecha_ingreso": "2024-01-12"
+  },
+  {
+    "nombre": "AirPods Pro 2",
+    "marca": "Apple",
+    "categoria": "Audio",
+    "precio": 249.0,
+    "stock": 50,
+    "especificaciones": "ANC, USB-C, audio espacial",
+    "fecha_ingreso": "2024-01-14"
+  },
+  {
+    "nombre": "AirPods Max",
+    "marca": "Apple",
+    "categoria": "Audio",
+    "precio": 549.0,
+    "stock": 16,
+    "especificaciones": "Auriculares circumaurales, ANC",
+    "fecha_ingreso": "2024-01-16"
+  },
+  {
+    "nombre": "Sony WF-1000XM5",
+    "marca": "Sony",
+    "categoria": "Audio",
+    "precio": 299.99,
+    "stock": 33,
+    "especificaciones": "In-ear inalámbricos, ANC, 8h batería",
+    "fecha_ingreso": "2024-02-20"
+  },
+  {
+    "nombre": "Bose SoundLink Flex",
+    "marca": "Bose",
+    "categoria": "Audio",
+    "precio": 169.0,
+    "stock": 40,
+    "especificaciones": "Altavoz Bluetooth portátil, IP67",
+    "fecha_ingreso": "2024-02-22"
+  },
+  {
+    "nombre": "JBL Charge 5",
+    "marca": "JBL",
+    "categoria": "Audio",
+    "precio": 179.99,
+    "stock": 45,
+    "especificaciones": "Altavoz Bluetooth portátil, IP67, 20h",
+    "fecha_ingreso": "2024-02-24"
+  },
+  {
+    "nombre": "Sonos Era 100",
+    "marca": "Sonos",
+    "categoria": "Audio",
+    "precio": 279.0,
+    "stock": 22,
+    "especificaciones": "Altavoz inteligente, Wi-Fi, AirPlay 2",
+    "fecha_ingreso": "2024-03-12"
+  },
+  {
+    "nombre": "PlayStation 5",
+    "marca": "Sony",
+    "categoria": "Gaming",
+    "precio": 549.99,
+    "stock": 20,
+    "especificaciones": "Consola, lector de discos, 825GB SSD",
+    "fecha_ingreso": "2024-01-08"
+  },
+  {
+    "nombre": "PlayStation 5 Slim",
+    "marca": "Sony",
+    "categoria": "Gaming",
+    "precio": 499.99,
+    "stock": 25,
+    "especificaciones": "Consola Slim, 1TB SSD",
+    "fecha_ingreso": "2024-02-26"
+  },
+  {
+    "nombre": "Xbox Series X",
+    "marca": "Microsoft",
+    "categoria": "Gaming",
+    "precio": 499.99,
+    "stock": 18,
+    "especificaciones": "Consola 4K, 1TB SSD",
+    "fecha_ingreso": "2024-01-09"
+  },
+  {
+    "nombre": "Xbox Series S",
+    "marca": "Microsoft",
+    "categoria": "Gaming",
+    "precio": 299.99,
+    "stock": 30,
+    "especificaciones": "Consola digital, 512GB SSD",
+    "fecha_ingreso": "2024-01-11"
+  },
+  {
+    "nombre": "Nintendo Switch OLED",
+    "marca": "Nintendo",
+    "categoria": "Gaming",
+    "precio": 349.99,
+    "stock": 27,
+    "especificaciones": "Pantalla OLED 7 pulgadas, 64GB",
+    "fecha_ingreso": "2024-01-13"
+  },
+  {
+    "nombre": "Steam Deck OLED",
+    "marca": "Valve",
+    "categoria": "Gaming",
+    "precio": 549.0,
+    "stock": 14,
+    "especificaciones": "7.4 pulgadas OLED, 512GB",
+    "fecha_ingreso": "2024-02-28"
+  },
+  {
+    "nombre": "Razer DeathAdder V3",
+    "marca": "Razer",
+    "categoria": "Gaming",
+    "precio": 89.99,
+    "stock": 60,
+    "especificaciones": "Ratón gaming, 30000 DPI, inalámbrico",
+    "fecha_ingreso": "2024-03-14"
+  },
+  {
+    "nombre": "Logitech G Pro X Superlight 2",
+    "marca": "Logitech",
+    "categoria": "Gaming",
+    "precio": 159.99,
+    "stock": 38,
+    "especificaciones": "Ratón gaming inalámbrico, 60g",
+    "fecha_ingreso": "2024-03-15"
+  },
+  {
+    "nombre": "Amazon Echo Dot 5",
+    "marca": "Amazon",
+    "categoria": "Smart Home",
+    "precio": 59.99,
+    "stock": 80,
+    "especificaciones": "Altavoz inteligente con Alexa",
+    "fecha_ingreso": "2024-01-17"
+  },
+  {
+    "nombre": "Google Nest Hub",
+    "marca": "Google",
+    "categoria": "Smart Home",
+    "precio": 99.99,
+    "stock": 42,
+    "especificaciones": "Pantalla inteligente 7 pulgadas",
+    "fecha_ingreso": "2024-01-19"
+  },
+  {
+    "nombre": "Philips Hue Starter Kit",
+    "marca": "Philips",
+    "categoria": "Smart Home",
+    "precio": 199.99,
+    "stock": 25,
+    "especificaciones": "3 bombillas color + puente",
+    "fecha_ingreso": "2024-02-01"
+  },
+  {
+    "nombre": "Ring Video Doorbell 4",
+    "marca": "Ring",
+    "categoria": "Smart Home",
+    "precio": 199.99,
+    "stock": 19,
+    "especificaciones": "Timbre con vídeo 1080p, Wi-Fi",
+    "fecha_ingreso": "2024-02-03"
+  },
+  {
+    "nombre": "Nest Learning Thermostat",
+    "marca": "Google",
+    "categoria": "Smart Home",
+    "precio": 249.0,
+    "stock": 16,
+    "especificaciones": "Termostato inteligente, 3ª generación",
+    "fecha_ingreso": "2024-03-16"
+  },
+  {
+    "nombre": "TP-Link Tapo C200",
+    "marca": "TP-Link",
+    "categoria": "Smart Home",
+    "precio": 39.99,
+    "stock": 55,
+    "especificaciones": "Cámara IP 1080p, visión nocturna",
+    "fecha_ingreso": "2024-03-18"
+  },
+  {
+    "nombre": "Sony Alpha A7 IV",
+    "marca": "Sony",
+    "categoria": "Cámaras",
+    "precio": 2499.0,
+    "stock": 6,
+    "especificaciones": "Cámara mirrorless full-frame, 33MP",
+    "fecha_ingreso": "2024-01-23"
+  },
+  {
+    "nombre": "Canon EOS R6 Mark II",
+    "marca": "Canon",
+    "categoria": "Cámaras",
+    "precio": 2499.0,
+    "stock": 5,
+    "especificaciones": "Cámara mirrorless full-frame, 24MP",
+    "fecha_ingreso": "2024-01-26"
+  },
+  {
+    "nombre": "Fujifilm X-T5",
+    "marca": "Fujifilm",
+    "categoria": "Cámaras",
+    "precio": 1699.0,
+    "stock": 8,
+    "especificaciones": "Mirrorless APS-C, 40MP",
+    "fecha_ingreso": "2024-02-04"
+  },
+  {
+    "nombre": "Nikon Z6 II",
+    "marca": "Nikon",
+    "categoria": "Cámaras",
+    "precio": 1999.0,
+    "stock": 7,
+    "especificaciones": "Mirrorless full-frame, 24.5MP",
+    "fecha_ingreso": "2024-02-06"
+  },
+  {
+    "nombre": "GoPro HERO12 Black",
+    "marca": "GoPro",
+    "categoria": "Cámaras",
+    "precio": 399.99,
+    "stock": 24,
+    "especificaciones": "Cámara de acción, 5.3K, sumergible",
+    "fecha_ingreso": "2024-03-20"
+  },
+  {
+    "nombre": "DJI Osmo Pocket 3",
+    "marca": "DJI",
+    "categoria": "Cámaras",
+    "precio": 519.0,
+    "stock": 17,
+    "especificaciones": "Cámara gimbal 4K, pantalla giratoria",
+    "fecha_ingreso": "2024-03-22"
+  },
+  {
+    "nombre": "LG OLED C3 55",
+    "marca": "LG",
+    "categoria": "Televisores",
+    "precio": 1699.0,
+    "stock": 9,
+    "especificaciones": "OLED 55 pulgadas, 4K, 120Hz",
+    "fecha_ingreso": "2024-01-27"
+  },
+  {
+    "nombre": "Samsung Neo QLED QN90C 65",
+    "marca": "Samsung",
+    "categoria": "Televisores",
+    "precio": 2499.0,
+    "stock": 6,
+    "especificaciones": "QLED 65 pulgadas, 4K, 120Hz",
+    "fecha_ingreso": "2024-02-07"
+  },
+  {
+    "nombre": "Sony Bravia A95L 55",
+    "marca": "Sony",
+    "categoria": "Televisores",
+    "precio": 2799.0,
+    "stock": 4,
+    "especificaciones": "QD-OLED 55 pulgadas, 4K",
+    "fecha_ingreso": "2024-02-09"
+  },
+  {
+    "nombre": "TCL 55C805",
+    "marca": "TCL",
+    "categoria": "Televisores",
+    "precio": 799.0,
+    "stock": 18,
+    "especificaciones": "Mini-LED 55 pulgadas, 4K, 144Hz",
+    "fecha_ingreso": "2024-03-24"
+  },
+  {
+    "nombre": "Hisense 65U7K",
+    "marca": "Hisense",
+    "categoria": "Televisores",
+    "precio": 999.0,
+    "stock": 12,
+    "especificaciones": "Mini-LED 65 pulgadas, 4K, 144Hz",
+    "fecha_ingreso": "2024-03-26"
+  },
+  {
+    "nombre": "Samsung T7 Shield 2TB",
+    "marca": "Samsung",
+    "categoria": "Almacenamiento",
+    "precio": 169.99,
+    "stock": 50,
+    "especificaciones": "SSD externo USB 3.2, resistente IP65",
+    "fecha_ingreso": "2024-01-30"
+  },
+  {
+    "nombre": "WD Black SN850X 2TB",
+    "marca": "WD",
+    "categoria": "Almacenamiento",
+    "precio": 199.99,
+    "stock": 40,
+    "especificaciones": "SSD NVMe PCIe Gen4 interno",
+    "fecha_ingreso": "2024-02-13"
+  },
+  {
+    "nombre": "Crucial T700 1TB",
+    "marca": "Crucial",
+    "categoria": "Almacenamiento",
+    "precio": 179.99,
+    "stock": 32,
+    "especificaciones": "SSD NVMe PCIe Gen5 interno",
+    "fecha_ingreso": "2024-02-15"
+  },
+  {
+    "nombre": "SanDisk Extreme Pro 1TB",
+    "marca": "SanDisk",
+    "categoria": "Almacenamiento",
+    "precio": 149.99,
+    "stock": 47,
+    "especificaciones": "SSD externo USB-C 3.2, IP55",
+    "fecha_ingreso": "2024-03-01"
+  },
+  {
+    "nombre": "Seagate IronWolf 8TB",
+    "marca": "Seagate",
+    "categoria": "Almacenamiento",
+    "precio": 219.99,
+    "stock": 28,
+    "especificaciones": "HDD NAS 7200 RPM, CMR",
+    "fecha_ingreso": "2024-03-28"
+  },
+  {
+    "nombre": "Apple Magic Keyboard",
+    "marca": "Apple",
+    "categoria": "Accesorios",
+    "precio": 129.0,
+    "stock": 35,
+    "especificaciones": "Teclado inalámbrico, Touch ID",
+    "fecha_ingreso": "2024-02-02"
+  },
+  {
+    "nombre": "Logitech MX Master 3S",
+    "marca": "Logitech",
+    "categoria": "Accesorios",
+    "precio": 109.99,
+    "stock": 55,
+    "especificaciones": "Ratón productividad inalámbrico, 8K DPI",
+    "fecha_ingreso": "2024-02-04"
+  },
+  {
+    "nombre": "Logitech MX Keys",
+    "marca": "Logitech",
+    "categoria": "Accesorios",
+    "precio": 119.99,
+    "stock": 42,
+    "especificaciones": "Teclado inalámbrico iluminado",
+    "fecha_ingreso": "2024-02-06"
+  },
+  {
+    "nombre": "Anker PowerCore 26800",
+    "marca": "Anker",
+    "categoria": "Accesorios",
+    "precio": 69.99,
+    "stock": 70,
+    "especificaciones": "Batería externa 26800mAh, USB-C PD",
+    "fecha_ingreso": "2024-03-02"
+  },
+  {
+    "nombre": "Belkin BoostCharge Pro",
+    "marca": "Belkin",
+    "categoria": "Accesorios",
+    "precio": 149.99,
+    "stock": 30,
+    "especificaciones": "Base de carga MagSafe 3-en-1",
+    "fecha_ingreso": "2024-03-30"
+  },
+  {
+    "nombre": "Apple AirTag (pack 4)",
+    "marca": "Apple",
+    "categoria": "Accesorios",
+    "precio": 119.0,
+    "stock": 60,
+    "especificaciones": "Localizador Bluetooth, pack de 4",
+    "fecha_ingreso": "2024-04-01"
+  },
+  {
+    "nombre": "Meta Quest 3",
+    "marca": "Meta",
+    "categoria": "VR",
+    "precio": 549.99,
+    "stock": 22,
+    "especificaciones": "Visor VR/MR, 128GB, mixed reality",
+    "fecha_ingreso": "2024-02-16"
+  },
+  {
+    "nombre": "Meta Quest 3 (512GB)",
+    "marca": "Meta",
+    "categoria": "VR",
+    "precio": 699.99,
+    "stock": 14,
+    "especificaciones": "Visor VR/MR, 512GB, mixed reality",
+    "fecha_ingreso": "2024-02-18"
+  },
+  {
+    "nombre": "PlayStation VR2",
+    "marca": "Sony",
+    "categoria": "VR",
+    "precio": 599.99,
+    "stock": 11,
+    "especificaciones": "Visor VR para PS5, 4K HDR",
+    "fecha_ingreso": "2024-03-04"
+  },
+  {
+    "nombre": "Valve Index",
+    "marca": "Valve",
+    "categoria": "VR",
+    "precio": 999.0,
+    "stock": 5,
+    "especificaciones": "Kit completo VR PC, 144Hz",
+    "fecha_ingreso": "2024-04-03"
+  },
+  {
+    "nombre": "Apple TV 4K",
+    "marca": "Apple",
+    "categoria": "Streaming",
+    "precio": 169.0,
+    "stock": 28,
+    "especificaciones": "Reproductor 4K HDR, 64GB",
+    "fecha_ingreso": "2024-02-21"
+  },
+  {
+    "nombre": "Amazon Fire TV Stick 4K Max",
+    "marca": "Amazon",
+    "categoria": "Streaming",
+    "precio": 69.99,
+    "stock": 65,
+    "especificaciones": "Reproductor 4K, Wi-Fi 6, Alexa",
+    "fecha_ingreso": "2024-02-23"
+  },
+  {
+    "nombre": "Google Chromecast con Google TV",
+    "marca": "Google",
+    "categoria": "Streaming",
+    "precio": 49.99,
+    "stock": 58,
+    "especificaciones": "Reproductor 4K HDR con mando",
+    "fecha_ingreso": "2024-03-06"
+  },
+  {
+    "nombre": "Roku Streaming Stick 4K",
+    "marca": "Roku",
+    "categoria": "Streaming",
+    "precio": 49.99,
+    "stock": 48,
+    "especificaciones": "Reproductor 4K HDR Dolby Vision",
+    "fecha_ingreso": "2024-04-05"
+  },
+  {
+    "nombre": "Apple Studio Display",
+    "marca": "Apple",
+    "categoria": "Monitores",
+    "precio": 1599.0,
+    "stock": 8,
+    "especificaciones": "27 pulgadas 5K Retina",
+    "fecha_ingreso": "2024-02-25"
+  },
+  {
+    "nombre": "LG UltraGear 27GR95QE",
+    "marca": "LG",
+    "categoria": "Monitores",
+    "precio": 999.0,
+    "stock": 13,
+    "especificaciones": "27 pulgadas OLED, 1440p, 240Hz",
+    "fecha_ingreso": "2024-02-27"
+  },
+  {
+    "nombre": "Samsung Odyssey G9 49",
+    "marca": "Samsung",
+    "categoria": "Monitores",
+    "precio": 1299.0,
+    "stock": 7,
+    "especificaciones": "49 pulgadas curvo, 240Hz, 1440p",
+    "fecha_ingreso": "2024-03-08"
+  },
+  {
+    "nombre": "Dell UltraSharp U2723QE",
+    "marca": "Dell",
+    "categoria": "Monitores",
+    "precio": 649.0,
+    "stock": 19,
+    "especificaciones": "27 pulgadas 4K IPS, USB-C 90W",
+    "fecha_ingreso": "2024-04-07"
+  },
+  {
+    "nombre": "BenQ PD2705U",
+    "marca": "BenQ",
+    "categoria": "Monitores",
+    "precio": 549.0,
+    "stock": 16,
+    "especificaciones": "27 pulgadas 4K profesional, calibrado",
+    "fecha_ingreso": "2024-04-09"
+  },
+  {
+    "nombre": "Apple Watch Series 9",
+    "marca": "Apple",
+    "categoria": "Wearables",
+    "precio": 449.0,
+    "stock": 31,
+    "especificaciones": "GPS, 45mm, caja aluminio",
+    "fecha_ingreso": "2024-03-10"
+  },
+  {
+    "nombre": "Apple Watch Ultra 2",
+    "marca": "Apple",
+    "categoria": "Wearables",
+    "precio": 899.0,
+    "stock": 17,
+    "especificaciones": "GPS+Cellular, 49mm, titanio",
+    "fecha_ingreso": "2024-03-12"
+  },
+  {
+    "nombre": "Samsung Galaxy Watch 6",
+    "marca": "Samsung",
+    "categoria": "Wearables",
+    "precio": 329.0,
+    "stock": 25,
+    "especificaciones": "44mm, GPS, Wear OS",
+    "fecha_ingreso": "2024-03-14"
+  },
+  {
+    "nombre": "Garmin Fenix 7 Pro",
+    "marca": "Garmin",
+    "categoria": "Wearables",
+    "precio": 899.99,
+    "stock": 12,
+    "especificaciones": "GPS multibanda, batería 18 días",
+    "fecha_ingreso": "2024-04-11"
+  },
+  {
+    "nombre": "Fitbit Charge 6",
+    "marca": "Fitbit",
+    "categoria": "Wearables",
+    "precio": 159.99,
+    "stock": 38,
+    "especificaciones": "Pulsera fitness, GPS, ECG",
+    "fecha_ingreso": "2024-04-13"
+  },
+  {
+    "nombre": "ASUS ROG Rapture GT-AX6000",
+    "marca": "ASUS",
+    "categoria": "Networking",
+    "precio": 369.0,
+    "stock": 14,
+    "especificaciones": "Router Wi-Fi 6, doble banda",
+    "fecha_ingreso": "2024-03-16"
+  },
+  {
+    "nombre": "TP-Link Deco X90",
+    "marca": "TP-Link",
+    "categoria": "Networking",
+    "precio": 449.99,
+    "stock": 18,
+    "especificaciones": "Sistema Mesh Wi-Fi 6, 3 nodos",
+    "fecha_ingreso": "2024-03-18"
+  },
+  {
+    "nombre": "Netgear Nighthawk RAXE500",
+    "marca": "Netgear",
+    "categoria": "Networking",
+    "precio": 599.99,
+    "stock": 9,
+    "especificaciones": "Router Wi-Fi 6E, tri-banda",
+    "fecha_ingreso": "2024-04-15"
+  },
+  {
+    "nombre": "Ubiquiti UniFi U6-Lite",
+    "marca": "Ubiquiti",
+    "categoria": "Networking",
+    "precio": 99.0,
+    "stock": 33,
+    "especificaciones": "Punto de acceso Wi-Fi 6 PoE",
+    "fecha_ingreso": "2024-04-17"
+  },
+  {
+    "nombre": "Keychron Q1 Pro",
+    "marca": "Keychron",
+    "categoria": "Periféricos",
+    "precio": 199.0,
+    "stock": 22,
+    "especificaciones": "Teclado mecánico inalámbrico, hot-swap",
+    "fecha_ingreso": "2024-03-20"
+  },
+  {
+    "nombre": "Elgato Stream Deck MK.2",
+    "marca": "Elgato",
+    "categoria": "Periféricos",
+    "precio": 149.99,
+    "stock": 30,
+    "especificaciones": "Panel control streaming, 15 teclas LCD",
+    "fecha_ingreso": "2024-03-22"
+  },
+  {
+    "nombre": "Razer BlackShark V2 Pro",
+    "marca": "Razer",
+    "categoria": "Periféricos",
+    "precio": 199.99,
+    "stock": 26,
+    "especificaciones": "Auriculares gaming inalámbricos",
+    "fecha_ingreso": "2024-04-19"
+  },
+  {
+    "nombre": "Logitech Brio 4K",
+    "marca": "Logitech",
+    "categoria": "Periféricos",
+    "precio": 199.0,
+    "stock": 24,
+    "especificaciones": "Webcam 4K UHD, HDR",
+    "fecha_ingreso": "2024-04-21"
+  },
+  {
+    "nombre": "Blue Yeti X",
+    "marca": "Blue",
+    "categoria": "Periféricos",
+    "precio": 169.99,
+    "stock": 28,
+    "especificaciones": "Micrófono USB, condensador, RGB",
+    "fecha_ingreso": "2024-04-23"
+  },
+  {
+    "nombre": "DJI Mini 4 Pro",
+    "marca": "DJI",
+    "categoria": "Drones",
+    "precio": 759.0,
+    "stock": 11,
+    "especificaciones": "Drone <250g, 4K HDR, obstáculos 360°",
+    "fecha_ingreso": "2024-03-24"
+  },
+  {
+    "nombre": "DJI Air 3",
+    "marca": "DJI",
+    "categoria": "Drones",
+    "precio": 1099.0,
+    "stock": 7,
+    "especificaciones": "Drone con doble cámara, 4K, 46 min",
+    "fecha_ingreso": "2024-04-25"
+  },
+  {
+    "nombre": "DJI Mavic 3 Pro",
+    "marca": "DJI",
+    "categoria": "Drones",
+    "precio": 2099.0,
+    "stock": 4,
+    "especificaciones": "Drone profesional, triple cámara Hasselblad",
+    "fecha_ingreso": "2024-04-27"
+  },
+  {
+    "nombre": "NVIDIA GeForce RTX 4080",
+    "marca": "NVIDIA",
+    "categoria": "Componentes",
+    "precio": 1199.0,
+    "stock": 9,
+    "especificaciones": "GPU 16GB GDDR6X, DLSS 3",
+    "fecha_ingreso": "2024-03-26"
+  },
+  {
+    "nombre": "AMD Ryzen 9 7950X",
+    "marca": "AMD",
+    "categoria": "Componentes",
+    "precio": 599.0,
+    "stock": 14,
+    "especificaciones": "CPU 16 núcleos, 32 hilos, AM5",
+    "fecha_ingreso": "2024-03-28"
+  },
+  {
+    "nombre": "Intel Core i9-14900K",
+    "marca": "Intel",
+    "categoria": "Componentes",
+    "precio": 599.0,
+    "stock": 11,
+    "especificaciones": "CPU 24 núcleos, LGA1700",
+    "fecha_ingreso": "2024-04-29"
+  },
+  {
+    "nombre": "Corsair Vengeance DDR5 32GB",
+    "marca": "Corsair",
+    "categoria": "Componentes",
+    "precio": 129.99,
+    "stock": 38,
+    "especificaciones": "Kit 2x16GB DDR5-6000 CL30",
+    "fecha_ingreso": "2024-05-01"
+  },
+  {
+    "nombre": "ASUS ROG Strix Z790-E",
+    "marca": "ASUS",
+    "categoria": "Componentes",
+    "precio": 549.0,
+    "stock": 13,
+    "especificaciones": "Placa base ATX LGA1700, DDR5",
+    "fecha_ingreso": "2024-05-03"
+  }
+]
