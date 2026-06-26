@@ -8,11 +8,13 @@ from datetime import date
 
 db = BaseDatos("datos/inventario.db")
 db.create_connection()
+inventario = Inventario(db)
 
 df = pd.read_sql("select * from productos", db.conn)
 
 categories = sorted( list( df.categoria.unique() ) )
 
+st.set_page_config(layout="centered", initial_sidebar_state="collapsed")
 
 st.header("Insertar registro")
 st.subheader("Añade información del nuevo producto")
@@ -42,7 +44,7 @@ if submitted:
             "fecha_ingreso": fecha_ingreso.isoformat(),  # "2026-06-25"
         }
         # aquí va la inserción (ver función abajo)
-        db.insertar_producto(datos)
+        inventario.insertar_producto(datos)
         st.success(f"'{datos['nombre']}' insertado correctamente.")
 
 

@@ -13,6 +13,8 @@ all_data = pd.read_sql("select * from productos ;", db.conn)
 brands = list(all_data.marca.unique())
 categories = list( all_data.categoria.unique() )
 
+st.set_page_config(layout="wide", initial_sidebar_state="collapsed")
+
 st.header("Inventario de productos")
 
 st.markdown("---")
